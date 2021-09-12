@@ -15,7 +15,7 @@ public class Main {
         b.setColor("красный");
         b.setR(5);
 
-        System.out.println(b.toString());
+        System.out.println(b);
 
         System.out.println();
         b.action();
@@ -27,12 +27,12 @@ public class Main {
     public static void TheBook(){
         Book book = new Book("Тургенев", "Отцы и дети", 1860, 200);
 
-        System.out.println(book.toString());
+        System.out.println(book);
     }
 
     public static void TheDog(){
         Dog dog = new Dog("Шарик", 5, "Хаски");
         dog.setAge(6);
-        System.out.println("\n" + dog.toString() + " и делает " + dog.action());
+        System.out.println("\n" + dog + " и делает " + dog.action());
     }
 }
